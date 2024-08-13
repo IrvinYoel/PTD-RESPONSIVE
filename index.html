@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Precision Truck Diesel</title>
   </head>
   <body>
-    <header>
-      <h1>Titulo</h1>
+    <div class="nav">
+      <div class="logo">
+        <img src="assets/logov1.png" alt="img-logo" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="marcas.html">Marcas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <h1 id="text-header">Precision Truck Diesel</h1>
+      <img src="assets/tallerv1.JPEG" alt="taller" id="img-taller" />
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <section class="container-home">
+        <div class="services home">
+          <h3 class="texthome">Servicios</h3>
+          <p>
+            Brindamos un buen servicio de mantenimiento y reparación de
+            vehículos automotores con las herramientas óptimas y modernas para
+            satisfacer las necesidades del cliente en el menor tiempo posible.
+          </p>
+        </div>
+        <div class="spareparts home">
+          <h3 class="texthome">Repuestos</h3>
+          <p>
+            Brindamos los mejores repuestos en marcas reconocidas para tu unidad
+          </p>
+        </div>
+      </section>
+      <section id="ubication">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.935047156866!2d-79.00531732484211!3d-8.108096491920968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad174804d9e131%3A0xb7533561c9e51732!2sPrecision%20Truck%20Diesel%20S.A.C.!5e0!3m2!1ses-419!2spe!4v1721438984755!5m2!1ses-419!2spe"
+          width="1000"
+          height="500"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <img id="logofooter" src="assets/logov2.png" alt="img-logo" />
+    </footer>
   </body>
 </html>
