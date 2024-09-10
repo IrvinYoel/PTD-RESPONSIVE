@@ -8,6 +8,12 @@
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
   }
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
 
   /* Header */
   /* Nav */
@@ -51,7 +57,6 @@
   .menu-overlay.open {
     transform: translateX(0);
   }
-
   .nav-links {
     list-style: none;
     text-align: center;
@@ -152,6 +157,12 @@
 @media (min-width: 321px) and (max-width: 375px) {
   /* Reset */
   /* GENERAL */
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -302,6 +313,12 @@
 @media (min-width: 376px) and (max-width: 425px) {
   /* Reset */
   /* GENERAL */
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -449,8 +466,15 @@
   }
 }
 
-@media (min-width: 425px) and (min-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   /* Reset */
+  /* GENERAL */
+  .desktop {
+    display: none;
+  }
+  .mobil {
+    display: none;
+  }
   * {
     margin: 0;
     padding: 0;
@@ -460,8 +484,96 @@
 
   /* Header */
   /* Nav */
+  /* GENERAL */
 
-  .img-menu {
-    display: none;
+  .header {
+    max-width: 768px;
+    overflow: hidden;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .img-logo {
+    width: 100px;
+  }
+
+  /* TITULO */
+  /* GENERAL */
+
+  h1 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .img {
+    width: 768px;
+  }
+
+  /* MAIN */
+  /* GENERAL */
+  .main {
+    background-color: #3e4095;
+  }
+
+  section h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #f79e1b;
+    padding: 10px;
+  }
+
+  .main p {
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* UBICATION */
+
+  section > iframe {
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-text {
+    width: 100vw;
+    padding: 0 65px 0 65px;
+  }
+
+  .footer-img {
+    padding-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer p {
+    font-size: 9px;
+  }
+
+  .footer img {
+    width: 100px;
   }
 }

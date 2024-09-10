@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const menu = document.querySelector(".menu");
-  const menuOverlay = document.querySelector(".menu-overlay");
-  const closeBtn = document.querySelector(".closebtn");
+  const menu = document.querySelector(".mobil .img-menu");
+  const menuOverlay = document.querySelector(".mobil .menu-overlay");
+  const closeBtn = document.querySelector(".mobil .closebtn");
 
   menu.addEventListener("click", () => {
     menuOverlay.classList.add("open");
