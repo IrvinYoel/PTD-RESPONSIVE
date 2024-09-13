@@ -254,10 +254,14 @@
 
   h1 {
     position: absolute;
-    color: #ffffff;
+    color: white;
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 800;
     padding: 20px;
+    text-shadow: 1px 1px 0px black,
+      /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
+      /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
+      /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
   }
 
   .img {
