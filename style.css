@@ -120,6 +120,11 @@
     justify-content: center;
   }
 
+  /* SECTION */
+  .services {
+    display: flex;
+  }
+
   /* UBICATION */
 
   section > iframe {
@@ -847,7 +852,7 @@
   /* GENERAL */
 
   .header {
-    max-width: 1440px;
+    max-width: 2000px;
     overflow: hidden;
   }
 
