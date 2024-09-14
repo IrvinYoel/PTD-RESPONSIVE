@@ -98,6 +98,21 @@
       /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
   }
 
+  .desktop .navbar .img-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .desktop .navbar .img-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Capa oscura con transparencia */
+    z-index: 1;
+  }
+
   .img {
     width: 100%;
   }
