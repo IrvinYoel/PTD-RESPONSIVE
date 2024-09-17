@@ -20,7 +20,8 @@
   /* GENERAL */
 
   .header {
-    max-width: 320px;
+    position: relative;
+    max-width: 100%;
     overflow: hidden;
   }
 
@@ -86,22 +87,20 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
+  .header h1 {
     position: absolute;
     text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -30%);
     color: white;
     margin: 0;
-    padding: 39px 0;
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 800;
     text-shadow: 1px 1px 0px black,
       /* Sombra en la esquina inferior derecha */ -1.5px 1.5px 0px black,
       /* Sombra en la esquina inferior izquierda */ 1.5px -1.5px 0px black,
       /* Sombra en la esquina superior derecha */ -1.5px -1.5px 0px black; /* Sombra en la esquina superior izquierda */
-  }
-
-  .titulos {
-    padding: 50px;
   }
 
   .desktop .navbar .img-container {
