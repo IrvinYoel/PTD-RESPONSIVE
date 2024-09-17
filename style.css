@@ -88,14 +88,20 @@
 
   h1 {
     position: absolute;
+    text-align: center;
     color: white;
+    margin: 0;
+    padding: 39px 0;
     font-size: 42px;
     font-weight: 800;
-    padding: 20px;
     text-shadow: 1px 1px 0px black,
-      /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
-      /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
-      /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
+      /* Sombra en la esquina inferior derecha */ -1.5px 1.5px 0px black,
+      /* Sombra en la esquina inferior izquierda */ 1.5px -1.5px 0px black,
+      /* Sombra en la esquina superior derecha */ -1.5px -1.5px 0px black; /* Sombra en la esquina superior izquierda */
+  }
+
+  .titulos {
+    padding: 50px;
   }
 
   .desktop .navbar .img-container {
@@ -260,7 +266,7 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 35px;
   }
 
   .closebtn {
@@ -283,6 +289,17 @@
     font-size: 42px;
     font-weight: 800;
     padding: 20px;
+    text-shadow: 1px 1px 0px black,
+      /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
+      /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
+      /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
+  }
+
+  .navbar .titulos {
+    position: absolute;
+    color: white;
+    font-size: 42px;
+    font-weight: 800;
     text-shadow: 1px 1px 0px black,
       /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
       /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
