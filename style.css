@@ -71,6 +71,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 24px;
+    font-weight: 550;
   }
 
   .closebtn {
@@ -317,10 +318,6 @@
       /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
   }
 
-  .img {
-    width: 100%;
-  }
-
   /* MAIN */
   /* GENERAL */
   .main {
@@ -450,6 +447,7 @@
     color: #fff;
     text-decoration: none;
     font-size: 34px;
+    font-weight: 550;
   }
 
   .closebtn {
@@ -484,10 +482,6 @@
     color: white;
     font-size: 60px;
     text-align: center;
-  }
-
-  .img {
-    width: 100%;
   }
 
   /* MAIN */
