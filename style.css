@@ -270,7 +270,8 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 31px;
+    font-weight: 550;
   }
 
   .closebtn {
@@ -446,7 +447,7 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 34px;
+    font-size: 38px;
     font-weight: 550;
   }
 
