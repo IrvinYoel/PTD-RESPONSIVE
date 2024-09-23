@@ -87,20 +87,24 @@
   /* TITULO */
   /* GENERAL */
 
-  .header h1 {
+  .titulo-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
     position: absolute;
-    text-align: center;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%, -30%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    margin: 0;
     font-size: 40px;
-    font-weight: 800;
-    text-shadow: 1px 1px 0px black,
-      /* Sombra en la esquina inferior derecha */ -1.5px 1.5px 0px black,
-      /* Sombra en la esquina inferior izquierda */ 1.5px -1.5px 0px black,
-      /* Sombra en la esquina superior derecha */ -1.5px -1.5px 0px black; /* Sombra en la esquina superior izquierda */
+    text-align: center;
   }
 
   .desktop .navbar .img-container {
@@ -282,16 +286,24 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
+  .titulo-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 42px;
-    font-weight: 800;
-    padding: 20px;
-    text-shadow: 1px 1px 0px black,
-      /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
-      /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
-      /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
+    font-size: 50px;
+    text-align: center;
   }
 
   .navbar .titulos {
@@ -454,16 +466,24 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
+  .titulo-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    font-size: 42px;
-    font-weight: 800;
-    padding: 20px;
-    text-shadow: 1px 1px 0px black,
-      /* Sombra en la esquina inferior derecha */ -1px 1px 0px black,
-      /* Sombra en la esquina inferior izquierda */ 1px -1px 0px black,
-      /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
+    font-size: 60px;
+    text-align: center;
   }
 
   .img {
