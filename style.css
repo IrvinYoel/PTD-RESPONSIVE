@@ -685,13 +685,24 @@
 
   /* TITULO */
   /* GENERAL */
+  .titulo-container {
+    position: relative;
+    width: 100%;
+  }
 
-  h1 {
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
     position: absolute;
-    color: #ffffff;
-    font-size: 42px;
-    font-weight: bold;
-    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    text-align: center;
   }
 
   .img {
@@ -840,7 +851,7 @@
   .header .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15.5px;
   }
 
   .img-logo {
@@ -850,12 +861,24 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
+  .titulo-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
     position: absolute;
-    color: #ffffff;
-    font-size: 42px;
-    font-weight: bold;
-    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 120px;
+    text-align: center;
   }
 
   .img {
@@ -1003,7 +1026,7 @@
   .header .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15.5px;
   }
 
   .img-logo {
@@ -1013,13 +1036,26 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
-    position: absolute;
-    color: #ffffff;
-    font-size: 42px;
-    font-weight: bold;
-    padding: 20px;
+  .titulo-container {
+    position: relative;
+    width: 100%;
   }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 150px;
+    text-align: center;
+  }
+
   .img {
     width: 100%;
   }
@@ -1137,7 +1173,7 @@
   .header .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15.5px;
   }
 
   .desktop .navbar .img-logo {
@@ -1176,13 +1212,26 @@
   /* TITULO */
   /* GENERAL */
 
-  h1 {
-    position: absolute;
-    color: #ffffff;
-    font-size: 42px;
-    font-weight: bold;
-    padding: 20px;
+  .titulo-container {
+    position: relative;
+    width: 100%;
   }
+
+  .titulo-container img {
+    width: 100%;
+    display: block;
+  }
+
+  .titulo-container h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 220px;
+    text-align: center;
+  }
+
   .img {
     width: 100%;
   }
