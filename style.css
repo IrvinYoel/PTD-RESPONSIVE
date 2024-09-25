@@ -108,21 +108,6 @@
     text-align: center;
   }
 
-  .desktop .navbar .img-container {
-    position: relative;
-    display: inline-block;
-  }
-
-  .desktop .navbar .img-container .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Capa oscura con transparencia */
-    z-index: 1;
-  }
-
   .img {
     width: 100%;
   }
@@ -329,6 +314,10 @@
       /* Sombra en la esquina superior derecha */ -1px -1px 0px black; /* Sombra en la esquina superior izquierda */
   }
 
+  .img {
+    width: 100%;
+  }
+
   /* MAIN */
   /* GENERAL */
   .main {
@@ -520,6 +509,10 @@
     text-align: center;
   }
 
+  .img {
+    width: 100%;
+  }
+
   /* MAIN */
   /* GENERAL */
   .main {
@@ -624,41 +617,12 @@
   /* Nav */
   /* GENERAL */
 
-  .desktop .navbar .img-logo {
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-
-  .desktop .navbar .img-logo:hover {
-    transform: scale(1.1);
-  }
-
   .header {
-    max-width: 1440px;
+    max-width: 768px;
     overflow: hidden;
   }
 
-  .nav-links li {
-    display: inline-block;
-    padding: 0 15px;
-    transition: all 0.03s;
-  }
-
-  .nav-links li:hover {
-    transform: scale(1.05);
-  }
-
-  .nav-links a {
-    text-decoration: none;
-    font-weight: 650;
-    color: black;
-  }
-
-  .nav-links a:hover {
-    color: #f79e1b;
-  }
-
-  .header .navbar {
+  .navbar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -666,6 +630,57 @@
 
   .img-logo {
     width: 100px;
+  }
+
+  .img-menu {
+    display: flex;
+    cursor: pointer;
+    height: 30px;
+  }
+  .menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .menu-overlay.open {
+    transform: translateX(0);
+  }
+
+  .nav-links {
+    list-style: none;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 20px 0;
+  }
+
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: 550;
+  }
+
+  .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
   }
 
   /* TITULO */
@@ -1197,7 +1212,7 @@
   /* Acordeón */
 
   .section {
-    max-width: 1441px;
+    max-width: 144px;
     padding: 0 20px;
     display: flex;
     flex-direction: column;
