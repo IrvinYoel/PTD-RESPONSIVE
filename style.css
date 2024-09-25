@@ -149,19 +149,29 @@
     justify-content: center;
   }
 
-  /* SECTION */
-  /* Servicios */
-  .services-container {
+  /* Acordeón */
+  .section {
+    max-width: 320px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    gap: 20px;
   }
 
-  .service-item h3 {
-    background-color: white;
+  .summary {
+    background: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .span {
+    color: white;
+    padding: 0 10px;
     font-size: 15px;
-    margin: 5px;
-    border-radius: 8px;
+    font-weight: 550;
   }
 
   /* UBICATION */
@@ -341,6 +351,31 @@
     justify-content: center;
   }
 
+  /* Acordeón */
+  .section {
+    max-width: 375px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .summary {
+    background: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .span {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 550;
+  }
+
   /* UBICATION */
 
   section > iframe {
@@ -507,6 +542,32 @@
     justify-content: center;
   }
 
+  /* Acordeon */
+
+  .section {
+    max-width: 520px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .summary {
+    background: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .span {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 550;
+  }
+
   /* UBICATION */
 
   section > iframe {
@@ -563,23 +624,41 @@
   /* Nav */
   /* GENERAL */
 
+  .desktop .navbar .img-logo {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .desktop .navbar .img-logo:hover {
+    transform: scale(1.1);
+  }
+
   .header {
-    max-width: 768px;
+    max-width: 1440px;
     overflow: hidden;
   }
 
   .nav-links li {
     display: inline-block;
-    list-style: none;
-    padding: 0 auto;
-    padding: 0 5px;
+    padding: 0 15px;
+    transition: all 0.03s;
+  }
+
+  .nav-links li:hover {
+    transform: scale(1.05);
   }
 
   .nav-links a {
     text-decoration: none;
+    font-weight: 650;
+    color: black;
   }
 
-  .navbar {
+  .nav-links a:hover {
+    color: #f79e1b;
+  }
+
+  .header .navbar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -623,6 +702,32 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+
+  /* Acordeón */
+
+  .section {
+    max-width: 3px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .summary {
+    background: white;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .span {
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 550;
   }
 
   /* UBICATION */
@@ -692,22 +797,31 @@
   }
 
   .header {
-    max-width: 1024px;
+    max-width: 1440px;
     overflow: hidden;
   }
 
   .nav-links li {
     display: inline-block;
-    list-style: none;
-    padding: 0 auto;
-    padding: 0 5px;
+    padding: 0 15px;
+    transition: all 0.03s;
+  }
+
+  .nav-links li:hover {
+    transform: scale(1.05);
   }
 
   .nav-links a {
     text-decoration: none;
+    font-weight: 650;
+    color: black;
   }
 
-  .navbar {
+  .nav-links a:hover {
+    color: #f79e1b;
+  }
+
+  .header .navbar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -843,7 +957,7 @@
     color: #f79e1b;
   }
 
-  .navbar {
+  .header .navbar {
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -946,6 +1060,17 @@
   /* Nav */
   /* GENERAL */
 
+  .header {
+    max-width: 2560px;
+    overflow: hidden;
+  }
+
+  .header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
   .desktop .navbar .img-logo {
     cursor: pointer;
     transition: all 0.3s;
@@ -953,11 +1078,6 @@
 
   .desktop .navbar .img-logo:hover {
     transform: scale(1.1);
-  }
-
-  .header {
-    max-width: 2560px;
-    overflow: hidden;
   }
 
   .nav-links li {
@@ -978,12 +1098,6 @@
 
   .nav-links a:hover {
     color: #f79e1b;
-  }
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
   }
 
   .img-logo {
