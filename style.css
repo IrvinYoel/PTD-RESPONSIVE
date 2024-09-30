@@ -91,6 +91,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    height: 180px;
   }
 
   .titulo-container img {
@@ -132,6 +133,55 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 320px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
   }
 
   /* Acordeón */
@@ -341,6 +391,55 @@
     justify-content: center;
   }
 
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 375px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
+  }
+
   /* Acordeón */
   .section {
     max-width: 375px;
@@ -535,6 +634,55 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 425px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
   }
 
   /* Acordeon */
@@ -734,6 +882,55 @@
     justify-content: center;
   }
 
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 768px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
+  }
+
   /* Acordeón */
 
   .section {
@@ -909,6 +1106,55 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 1024px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
   }
 
   /* Acordeón */
@@ -1087,6 +1333,55 @@
     justify-content: center;
   }
 
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 1440px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
+  }
+
   /* Acordeón */
 
   .section {
@@ -1262,6 +1557,54 @@
     padding: 15px;
     display: flex;
     justify-content: center;
+  }
+
+  /* FORM - CONTACTO */
+
+  form {
+    padding: 50px 55px;
+    box-shadow: 0 0 1px black;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  label {
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  input,
+  textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid aqua;
+    outline: none;
+  }
+
+  .form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 16px;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    cursor: pointer;
   }
 
   /* Acordeón */
