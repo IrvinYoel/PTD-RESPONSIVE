@@ -137,7 +137,7 @@
   /* Acordeón */
   .section {
     max-width: 320px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -344,7 +344,7 @@
   /* Acordeón */
   .section {
     max-width: 375px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -541,7 +541,7 @@
 
   .section {
     max-width: 520px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -738,7 +738,7 @@
 
   .section {
     max-width: 768px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -915,7 +915,7 @@
 
   .section {
     max-width: 1024px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1091,7 +1091,7 @@
 
   .section {
     max-width: 1440px;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1268,7 +1268,7 @@
 
   .section {
     width: 100%;
-    padding: 0 20px;
+    padding: 0 20px 10px;
     display: flex;
     flex-direction: column;
     gap: 20px;
