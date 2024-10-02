@@ -40,6 +40,7 @@
     cursor: pointer;
     height: 30px;
   }
+
   .menu-overlay {
     position: fixed;
     top: 0;
@@ -55,9 +56,11 @@
     transition: transform 0.3s ease-in-out;
     z-index: 10;
   }
+
   .menu-overlay.open {
     transform: translateX(0);
   }
+
   .nav-links {
     list-style: none;
     text-align: center;
@@ -135,11 +138,29 @@
     justify-content: center;
   }
 
+  /* MARCAS */
+  .marcas-container {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .marcas-container img {
+    width: 100%;
+  }
+
+  .marcas-container h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
   /* FORM - CONTACTO */
 
   form {
     padding: 50px 55px;
-    box-shadow: 0 0 1px black;
     border-radius: 20px;
     text-align: center;
     width: 320px;
