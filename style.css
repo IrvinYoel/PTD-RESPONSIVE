@@ -2,17 +2,24 @@
 @media (max-width: 320px) {
   /* Reset */
   /* GENERAL */
+
+  .desktop {
+    display: none;
+  }
+  .tablet {
+    display: none;
+  }
+
   * {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
   }
-  .desktop {
-    display: none;
-  }
-  .tablet {
-    display: none;
+
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* Header */
@@ -275,11 +282,17 @@
   .tablet {
     display: none;
   }
+
   * {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* Header */
@@ -557,6 +570,11 @@
     box-sizing: border-box;
   }
 
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
   /* Header */
   /* Nav */
   /* GENERAL */
@@ -824,6 +842,11 @@
     box-sizing: border-box;
   }
 
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
   /* Header */
   /* Nav */
   /* GENERAL */
@@ -1085,11 +1108,17 @@
   .mobil {
     display: none;
   }
+
   * {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* Header */
@@ -1358,6 +1387,11 @@
     box-sizing: border-box;
   }
 
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+
   /* Header */
   /* Nav */
   /* GENERAL */
@@ -1600,6 +1634,11 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* Header */
@@ -1845,6 +1884,11 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-width: none;
   }
 
   /* Header */
