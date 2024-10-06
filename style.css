@@ -555,6 +555,7 @@
   }
 }
 
+/* IPHONE */
 @media (min-width: 376px) and (max-width: 425px) {
   /* Reset */
   /* GENERAL */
@@ -686,14 +687,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 27px;
+    font-size: 28px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     padding: 15px;
     display: flex;
     justify-content: center;
