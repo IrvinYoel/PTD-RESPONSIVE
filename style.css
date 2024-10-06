@@ -101,6 +101,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 180px;
   }
 
   .titulo-container img {
@@ -370,6 +371,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 210px;
   }
 
   .titulo-container img {
@@ -652,6 +654,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 239px;
   }
 
   .titulo-container img {
@@ -924,6 +927,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 292px;
   }
 
   .titulo-container img {
