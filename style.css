@@ -413,14 +413,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 26px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -685,14 +685,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 27px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -958,14 +958,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 28px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -1199,6 +1199,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 432px;
   }
 
   .titulo-container img {
@@ -1229,14 +1230,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 29px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 17px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -1449,6 +1450,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 576px;
   }
 
   .titulo-container img {
@@ -1479,14 +1481,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 17px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -1698,6 +1700,7 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 594px;
   }
 
   .titulo-container img {
@@ -1728,14 +1731,14 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 31px;
     color: #f79e1b;
     padding: 10px;
   }
 
   .main p {
     color: white;
-    font-size: 12px;
+    font-size: 18px;
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -1948,11 +1951,11 @@
   .titulo-container {
     position: relative;
     width: 100%;
+    max-height: 810px;
   }
 
   .titulo-container img {
     width: 100%;
-    height: 820px;
     display: block;
   }
 
@@ -1979,7 +1982,7 @@
   section h3 {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 32px;
     color: #f79e1b;
     padding: 10px;
   }
@@ -1987,9 +1990,10 @@
   .main p {
     display: flex;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     padding: 15px;
     display: flex;
+    justify-content: center;
   }
 
   /* MARCAS */
